@@ -1,0 +1,46 @@
+
+header{
+    display: flex;
+    gap: 20px;
+}
+
+.profile{
+    display: flex;
+    margin-left: 10em;
+    gap: 30px;
+}
+
+.section{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+
+
+.banner{
+    
+    height: 500px;
+    width: 500px;
+    margin-right:5px;
+}
+
+.MAIN{
+    display: flex;
+    padding: 20px; 
+}
+
+.MAIN-text{
+    margin-top: 20px;
+}
+
+.google{
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 50px;
+    width: 200px;
+}
+.App{
+    margin-top: 80px;
+    height: 50px;
+    width: 200px;
+   }
