@@ -1,6 +1,22 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ 
+.div1{
+    background-color: lightblue;
+    height:auto ;
+    width:100%;
+    border: 2px solid black;
+    margin: 5px;
+} 
+
 header{
     display: flex;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -16,21 +32,27 @@ header{
    margin-top: 50px;
 }
 
+#banner{
+    background-color: lightblue;
+}
 
 .banner{
     
     height: 500px;
     width: 500px;
     margin-right:5px;
+    background-color: lightblue;
 }
 
 .MAIN{
     display: flex;
     padding: 20px; 
+    margin-right: 50px;
 }
 
 .MAIN-text{
     margin-top: 20px;
+    margin-left: 50px;
 }
 
 .google{
@@ -44,3 +66,155 @@ header{
     height: 50px;
     width: 200px;
    }
+
+   body {
+    font-family: Arial, sans-serif;
+    background: #a9a2a2;
+    margin: 0;
+    padding: 0;
+}
+
+.featured-section {
+    padding: 20px;
+    text-align: center;
+  
+}
+
+.featured-section h1 {
+    font-size: 2em;
+}
+
+.featured-section h1 span {
+    color: red;
+}
+
+
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 20px;
+}
+
+.course-card {
+    background: #fff;
+    border-radius: 8px;
+    width: 450px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: left;
+    justify-content: center;
+}
+
+.course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.course-info {
+    padding: 10px;
+}
+
+.course-info h3 {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.course-info p {
+    font-size: 0.9em;
+    margin: 5px 0;
+    color: #555;
+}
+
+.rating {
+    font-size: 0.9em;
+    color: #ff9800;
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1em;
+    color: #000;
+}
+
+.join-btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 15px;
+    background: #ffeb3b;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.join-btn:hover {
+    background: #fdd835;
+}
+
+.explore-btn {
+    margin-top: 20px;
+}
+
+.explore-btn button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #fdd835;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.explore-btn button{
+    background: #ffeb3b;
+}
+
+#heading{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#coursess{
+    color: red;
+   
+}
+
+.featured-section2{
+ 
+    background-color: rgb(160, 245, 217);
+}
+
+#heading2{
+
+    padding-top: 30px;
+  
+}
+
+.Added{
+    color: red;
+}
+
+.featured-section3{
+
+    background-color: rgb(232, 181, 189);
+}
+
+
+footer{
+    height: 300px;
+    background-color: #000;
+    width: auto;
+}
+
+#footer-logo{
+    margin-left: 20px;
+   
+    height: 250px;
+    width: 200px;
+}
