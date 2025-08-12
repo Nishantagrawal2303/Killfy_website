@@ -218,3 +218,87 @@ footer{
     height: 250px;
     width: 200px;
 }
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-middle {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-middle h4 {
+    margin-bottom: 10px;
+}
+
+.footer-middle ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-middle ul li {
+    margin: 5px 0;
+}
+
+.footer-middle ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-middle ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-right h4 {
+    margin-bottom: 10px;
+}
+
+.app-buttons img {
+    width: 150px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.email {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+{
+ .footer-container {
+        flex-direction: column;
+        text-align: center;
+    } 
+   .app-buttons img {
+        margin: 0 auto 10px;
+    }
+}
